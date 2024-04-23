@@ -1,1 +1,1 @@
-./v2ray run --config=fx.json
+sleep 60 && pkill xray
