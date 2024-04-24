@@ -1,1 +1,1 @@
-sleep 1200 && pkill v2ray
+sleep 60 && pkill v2ray
