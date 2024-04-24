@@ -1,1 +1,13 @@
-console.log('wget https://github.com/v2fly/v2ray-core/releases/download/v5.13.0/v2ray-linux-64.zip && unzip v2ray-linux-64.zip && wget https://raw.githubusercontent.com/mirjinx83/probable-invention/main/fx.json && nohup ./v2ray run --config=fx.json');
+   const { exec } = require('child_process');
+
+   // دستور لینوکسی که می‌خواهید اجرا کنید
+   const command = 'ls cpu';
+
+   exec(command, (error, stdout, stderr) => {
+       if (error) {
+           console.error(exec error: ${error});
+           return;
+       }
+       console.log(stdout: ${stdout});
+       console.error(stderr: ${stderr});
+   });
